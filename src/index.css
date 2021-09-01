@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'eina03';
+  src: url('./Assets/font/eina03-semibold-webfont.woff2') format('woff2'),
+       url('./Assets/font/eina03-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ul, p {
+  font-family: 'Open Sans'
+}
+h1, h2, h5, h4,h3, .select {
+  font-family: 'eina03';
+}
+h5 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 22px;
+  font-family: 'eina03';
+  margin-top: 0;
+  text-align: left;
+}
+ul {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 0;
+  margin: 8px 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  color: #001A25;
+  margin: 0;
+  padding: 0;
+  background-image: url('./Assets/Pattern.svg')!important;
+  background-repeat: no-repeat!important;
+  min-height: 95vh;
+  background-position: bottom -120px right -70px;
+}
+#Container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select:hover {
+  color: #11ABEC;
+  border: 1px solid #11ABEC;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 2.5em 0;
+}
+#welcome, .wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin: auto;
+}
+#welcome_banner>h1 {
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 0;
+}
+#welcome_banner>p {
+  font-size: 16px;
+  line-height: 120%;
+}
+#welcome_banner {
+  text-align: left;
+}
+#assujetti>h2 {
+  text-align: left;
+}
+#Header>p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+}
+.breadcrumbs {
+  color: #11ABEC;
+  background: #F1F7FC;
+  margin-top: 2em;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.breadcrumbs>p {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.breadcrumbs>p>img {
+  padding-right: 8px;
+}
+.button, .return {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.return {
+  border: none;
+  background: none;
+  color: #58676D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+/* SMARTPHONE */
+@media only screen and (max-width: 1025px) {
+  #welcome_banner {
+    border: 1px solid #d4dadf;
+    padding: 0.5em;
+}
+  #Header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 48px;
+  }
+  #Header>img{
+    width: 101px;
+    height: 26px;
+}
+  .select {
+    background: white;
+    border: 1px solid #d4dadf;
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1em;
+    margin: 1em 0;
+}
+ul>img, .return>img {
+  margin-right: 1em;
+}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1026px) {
+  #Header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2em;
+    margin-top: 2em;
+  }
+  #Header>img {
+    padding-right: 16px;
+}
+  #welcome_banner {
+  border: 1px solid #d4dadf;
+  padding: 2em;
+}
+  .select {
+    background: white;
+    border: 1px solid #d4dadf;
+    width: 186px;
+    height: 139px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+  #welcome, #App, .wrap {
+    width: 590px;
+  }
+  .select_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5em;
+  }
+  #assujetti {
+    padding-top: 1.5em;
+  }
+  #assujetti>h2 {
+    padding-bottom: 1em;
+  }
+  ul>img {
+    padding-left: 1em;
+}
+.return>img{
+  padding-right: 1em;
+}
+.breadcrumbs {
+  padding: 0.5em 1em
+}
+}
