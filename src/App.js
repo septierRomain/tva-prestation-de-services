@@ -7,6 +7,7 @@ import Where from './Component/Assujetti/LocatePreneur';
 import SecondPrestation from './Component/Assujetti/SecondPrestation';
 import Foreign from './Component/Foreign';
 import France from './Component/France';
+import FranceBis from './Component/France/FranceBis';
 import Home from './Component/Home';
 import NonAssujetti from './Component/NonAssujetti';
 
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route exact path='/France'>
             <France />
+          </Route>
+          <Route exact path='/FranceBis'>
+            <FranceBis />
           </Route>
           <Route exact path='/SecondPrestation'>
             <SecondPrestation />

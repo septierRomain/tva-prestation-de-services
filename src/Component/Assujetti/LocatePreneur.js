@@ -12,7 +12,7 @@ const Where = () => {
       <Banner />
       <div>
 
-      <Link to='/LocatePreneur'>
+      <Link to='/SecondPrestation'>
         <button className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
@@ -25,7 +25,7 @@ const Where = () => {
 
       <h2>Le preneur est il établi en France ?</h2>
       <div className="select_container">
-        <Link to='France' ><button className='select'>Oui</button></Link>
+        <Link to='FranceBis' ><button className='select'>Oui</button></Link>
         <Link to='Foreign' ><button className='select'>Non</button></Link>
       </div>
 
