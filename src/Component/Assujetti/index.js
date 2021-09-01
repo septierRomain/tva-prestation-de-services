@@ -11,7 +11,7 @@ const Assujetti = () => {
   return ( 
     <div className="wrap">
       <Banner />
-      <div className="wrap">
+      <div>
       <Link to='/'>
           <button className="return">
           <img src={GreyArrow} alt="fleche grise"/>
@@ -20,7 +20,7 @@ const Assujetti = () => {
         </Link>
 
         <div className="breadcrumbs">
-          <p><img src={Check} alt="fleche grise"/>Vous etes assujetti</p>
+          <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti a la TVA</p>
         </div>
 
       <h4>S'agit il d'une des prestations suivantes ?</h4>
@@ -31,7 +31,7 @@ const Assujetti = () => {
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les ventes à consommer sur place lorsqu’elles sont matériellement exécutées en France</ul>
 
         <div className="select_container">
-          <Link to='/'><button className='select'>Oui</button></Link>
+          <Link to='/France'><button className='select'>Oui</button></Link>
           <Link to='/'><button className='select'>Non</button></Link>
         </div>
 

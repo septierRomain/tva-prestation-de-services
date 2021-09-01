@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './App.css';
 import Assujetti from './Component/Assujetti';
+import France from './Component/France';
 import Home from './Component/Home';
 import NonAssujetti from './Component/NonAssujetti';
 
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route exact path='/NonAssujetti'>
             <NonAssujetti />
+          </Route>
+          <Route exact path='/France'>
+            <France />
           </Route>
         </Switch>
         </BrowserRouter>
