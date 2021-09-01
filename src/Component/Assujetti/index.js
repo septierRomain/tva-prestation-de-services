@@ -13,11 +13,11 @@ const Assujetti = () => {
       <Banner />
       <div>
       <Link to='/'>
-          <button className="return">
-          <img src={GreyArrow} alt="fleche grise"/>
-            Retour
-          </button>
-        </Link>
+        <button className="return">
+        <img src={GreyArrow} alt="fleche grise"/>
+          Retour
+        </button>
+      </Link>
 
         <div className="breadcrumbs">
           <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti a la TVA</p>
@@ -32,7 +32,7 @@ const Assujetti = () => {
 
         <div className="select_container">
           <Link to='/France'><button className='select'>Oui</button></Link>
-          <Link to='/'><button className='select'>Non</button></Link>
+          <Link to='/SecondPrestation'><button className='select'>Non</button></Link>
         </div>
 
       </div>

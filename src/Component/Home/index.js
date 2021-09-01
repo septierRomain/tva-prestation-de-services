@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div id="assujetti">
-        <h2>Le prenneur est il assujetti à la TVA ?</h2>
+        <h2>Le preneur est il assujetti à la TVA ?</h2>
         <div className="select_container">
           <Link to='Assujetti' ><button className='select'>Oui</button></Link>
           <Link to='NonAssujetti' ><button className='select'>Non</button></Link>
