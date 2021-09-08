@@ -10,6 +10,8 @@ import ThirdPrestation from './Component/Assujetti/ThirdPrestation';
 import Foreign from './Component/Foreign';
 import France from './Component/France';
 import FranceBis from './Component/France/FranceBis';
+import FranceThird from './Component/France/FranceThird';
+import Others from './Component/France/Others';
 import Home from './Component/Home';
 import NonAssujetti from './Component/NonAssujetti';
 
@@ -48,6 +50,12 @@ function App() {
           </Route>
           <Route exact path='/FourthPrestation'>
             <FourthPrestation />
+          </Route>
+          <Route exact path='/FranceThird'>
+            <FranceThird />
+          </Route>
+          <Route exact path='/Autres'>
+            <Others />
           </Route>
         </Switch>
         </BrowserRouter>
