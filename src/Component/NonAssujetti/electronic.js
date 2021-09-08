@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import Banner from '../App/Banner';
 
 import ModalTélécom from '../Modal/télécommunications'
+import ModalTV from '../Modal/télévision'
+import ModalElectronic from '../Modal/electronic'
 
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
@@ -31,8 +33,8 @@ const Electronic = () => {
           télécommunication
           <ModalTélécom />
         </ul>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />radiodiffusion et de télévision</ul>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />services fournis par voie électronique</ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />radiodiffusion et de télévision<ModalTV /></ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />services fournis par voie électronique<ModalElectronic /></ul>
 
         <div className="select_container">
           <Link to='/preneur_non_assujetti'><button className='select'>Oui</button></Link>

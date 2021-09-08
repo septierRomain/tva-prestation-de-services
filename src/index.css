@@ -7,8 +7,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-ul, p {
-  font-family: 'Open Sans'
+ul, p, li {
+  font-family: 'Open Sans'!important
 }
 h1, h2, h5, h4,h3, .select {
   font-family: 'eina03'!important;
@@ -140,6 +140,9 @@ hr {
 }
 .infos {
   margin-left: 1em!important;
+}
+.tick {
+  margin-right: 1em!important;
 }
 
 
