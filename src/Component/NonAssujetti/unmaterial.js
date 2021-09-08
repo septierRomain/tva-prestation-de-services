@@ -7,12 +7,12 @@ import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 
-const Electronic = () => {
+const Unmaterial = () => {
   return ( 
     <div className="wrap">
       <Banner />
       <div>
-      <Link to='/'>
+      <Link to='/prestation_electronique'>
         <button className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
@@ -23,12 +23,11 @@ const Electronic = () => {
           <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
         </div>
 
-      <h4>S'agit il d'une des prestations suivantes ?</h4>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />télécommunication, télévision, radiodiffusion, services fournis par voie électronique</ul>
+      <h4>S'agit il d'une des prestations immatérielles ?</h4>
 
         <div className="select_container">
-          <Link to='/preneur_non_assujetti'><button className='select'>Oui</button></Link>
-          <Link to='/immaterielles'><button className='select'>Non</button></Link>
+          <Link to='/'><button className='select'>Oui</button></Link>
+          <Link to='/transport'><button className='select'>Non</button></Link>
         </div>
 
       </div>
@@ -36,4 +35,4 @@ const Electronic = () => {
 );
 }
 
-export default Electronic;
+export default Unmaterial;

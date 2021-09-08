@@ -19,7 +19,9 @@ import NonAssujetti from './Component/NonAssujetti';
 import Electronic from './Component/NonAssujetti/electronic';
 import WhereUnsubmit from './Component/NonAssujetti/LocateUnsubmit';
 import OSS from './Component/NonAssujetti/OSS.js';
+import Transport from './Component/NonAssujetti/transport';
 import UE from './Component/NonAssujetti/UE';
+import Unmaterial from './Component/NonAssujetti/unmaterial';
 
 function App() {
   return (
@@ -80,6 +82,12 @@ function App() {
           </Route>
           <Route exact path='/OSS'>
             <OSS />
+          </Route>
+          <Route exact path='/immaterielles'>
+            <Unmaterial />
+          </Route>
+          <Route exact path='/transport'>
+            <Transport />
           </Route>
         </Switch>
         </BrowserRouter>
