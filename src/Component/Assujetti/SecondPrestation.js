@@ -34,7 +34,7 @@ const SecondPrestation = () => {
 
       <div className="select_container">
         <Link to='/LocatePreneur'><button className='select'>Oui</button></Link>
-        <Link to='/#'><button className='select'>Non</button></Link>
+        <Link to='/ThirdPrestation'><button className='select'>Non</button></Link>
       </div>
       
       </div>
