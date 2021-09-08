@@ -6,12 +6,12 @@ import Banner from '../App/Banner';
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 
-const Transport = () => {
+const WhereUnmaterial = () => {
   return ( 
     <div className="wrap">
       <Banner />
       <div>
-      <Link to='/immaterielles'>
+      <Link to='/transport'>
         <button className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
@@ -22,11 +22,11 @@ const Transport = () => {
           <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
         </div>
 
-      <h4>S'agit il d'une des prestations de transport ?</h4>
+      <h4>Le preneur est il établi en France ou dans un autre Etat d'UE ?</h4>
 
         <div className="select_container">
-          <Link to='/prestation_transport'><button className='select'>Oui</button></Link>
-          <Link to='/prestations_non_assujetti'><button className='select'>Non</button></Link>
+          <Link to='/France'><button className='select'>Oui</button></Link>
+          <Link to='/non_soumis_hors_ue'><button className='select'>Non</button></Link>
         </div>
 
       </div>
@@ -34,4 +34,4 @@ const Transport = () => {
 );
 }
 
-export default Transport;
+export default WhereUnmaterial;

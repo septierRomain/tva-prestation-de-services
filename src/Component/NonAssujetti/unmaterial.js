@@ -5,7 +5,6 @@ import Banner from '../App/Banner';
 
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
-import Arrow from '../../Assets/arrow.svg'
 
 const Unmaterial = () => {
   return ( 
@@ -26,7 +25,7 @@ const Unmaterial = () => {
       <h4>S'agit il d'une des prestations immatérielles ?</h4>
 
         <div className="select_container">
-          <Link to='/'><button className='select'>Oui</button></Link>
+          <Link to='/preneur_immaterielles'><button className='select'>Oui</button></Link>
           <Link to='/transport'><button className='select'>Non</button></Link>
         </div>
 

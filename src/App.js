@@ -17,11 +17,19 @@ import Others from './Component/France/Others';
 import Home from './Component/Home';
 import NonAssujetti from './Component/NonAssujetti';
 import Electronic from './Component/NonAssujetti/electronic';
+import ForeignUnsubmit from './Component/NonAssujetti/ForeignUnsubmit';
+import LocatePrestation from './Component/NonAssujetti/LocatePrestation';
 import WhereUnsubmit from './Component/NonAssujetti/LocateUnsubmit';
+import LocationVehicule from './Component/NonAssujetti/LocationVehicule';
+import LocationVehiculeFinal from './Component/NonAssujetti/LocationVehiculeFinal';
 import OSS from './Component/NonAssujetti/OSS.js';
 import Transport from './Component/NonAssujetti/transport';
+import TransportFinal from './Component/NonAssujetti/TransportFinal';
 import UE from './Component/NonAssujetti/UE';
 import Unmaterial from './Component/NonAssujetti/unmaterial';
+import UnsubmitOthers from './Component/NonAssujetti/UnsubmitOthers';
+import UnsubmitSecond from './Component/NonAssujetti/UnsubmitSecond';
+import WhereUnmaterial from './Component/NonAssujetti/WhereUnmaterial';
 
 function App() {
   return (
@@ -86,8 +94,32 @@ function App() {
           <Route exact path='/immaterielles'>
             <Unmaterial />
           </Route>
+          <Route exact path='/preneur_immaterielles'>
+            <WhereUnmaterial />
+          </Route>
+          <Route exact path='/non_soumis_hors_ue'>
+            <ForeignUnsubmit />
+          </Route>
           <Route exact path='/transport'>
             <Transport />
+          </Route>
+          <Route exact path='/prestation_transport'>
+            <TransportFinal />
+          </Route>
+          <Route exact path='/prestations_non_assujetti'>
+            <UnsubmitSecond />
+          </Route>
+          <Route exact path='/lieu_de_prestation'>
+            <LocatePrestation />
+          </Route>
+          <Route exact path='/location_vehicule'>
+            <LocationVehicule />
+          </Route>
+          <Route exact path='/location_vehicule_procedure'>
+            <LocationVehiculeFinal />
+          </Route>
+          <Route exact path='/autres_non_assujetti'>
+            <UnsubmitOthers />
           </Route>
         </Switch>
         </BrowserRouter>
