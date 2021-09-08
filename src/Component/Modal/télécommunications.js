@@ -12,7 +12,7 @@ function ModalExampleBasic() {
       open={open}
       size='small'
       trigger={<Button circular size='mini' basic color='teal' animated='vertical' className='infos'>
-          <Button.Content hidden>Info</Button.Content>
+          <Button.Content hidden>Infos</Button.Content>
           <Button.Content visible>
             <Icon name='idea' />
           </Button.Content>
@@ -24,16 +24,15 @@ function ModalExampleBasic() {
       </Header>
       <Modal.Content>
         <p>
-        - les services de téléphonie fixe et mobile pour la transmission et la commutation de la voix, de données et d’images, y compris les services téléphoniques comportant une composante d’imagerie (services de vidéophonie) ;
-        - les services téléphoniques fournis par internet, y compris le protocole de téléphonie vocale par internet (VoIP) ;
-        - la messagerie vocale, l’appel en instance, le transfert d’appel, l’identification de l’appelant, la conversation à trois et les autres services de gestion d’appels ;
-        - les services de radiomessagerie ;
-        - les services d'audio-texte, la télécopie, le télégraphe et le télex ;
-        - l’accès à l’internet, y compris le World Wide Web ;
-        - les connexions privées fournissant des liens de télécommunication à l’usage exclusif du preneur.
-        Il en est de même :
-        - des frais forfaitaires de raccordement, de transfert et de cession d'abonnement ;
-        - des redevances d'abonnement.
+          <ul><Icon name='angle right' /> Les services de téléphonie fixe et mobile pour la transmission et la commutation de la voix, de données et d’images, y compris les services téléphoniques comportant une composante d’imagerie (services de vidéophonie)</ul>
+          <ul><Icon name='angle right' /> Les services téléphoniques fournis par internet, y compris le protocole de téléphonie vocale par internet (VoIP)</ul>
+          <ul><Icon name='angle right' /> La messagerie vocale, l’appel en instance, le transfert d’appel, l’identification de l’appelant, la conversation à trois et les autres services de gestion d’appels</ul>
+          <ul><Icon name='angle right' /> Les services de radiomessagerie</ul>
+          <ul><Icon name='angle right' /> Les services d'audio-texte, la télécopie, le télégraphe et le télex</ul>
+          <ul><Icon name='angle right' /> L’accès à l’internet, y compris le World Wide Web</ul>
+          <ul><Icon name='angle right' /> Les connexions privées fournissant des liens de télécommunication à l’usage exclusif du preneur</ul>
+          <ul><Icon name='angle right' /> Les frais forfaitaires de raccordement, de transfert et de cession d'abonnement</ul>
+          <ul><Icon name='angle right' /> Les redevances d'abonnement</ul>
         </p>
       </Modal.Content>
       <Modal.Actions>
