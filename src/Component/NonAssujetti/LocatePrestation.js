@@ -26,7 +26,7 @@ const LocatePrestation = () => {
       <h2>La prestation a-t-elle eu lieu en France ? </h2>
       <div className="select_container">
         <Link to='France' ><button className='select'>Oui</button></Link>
-        <Link to='lieu_de_prestation' ><button className='select'>Non</button></Link>
+        <Link to='non_soumis_hors_ue' ><button className='select'>Non</button></Link>
       </div>
 
       </div>
