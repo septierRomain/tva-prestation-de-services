@@ -47,7 +47,7 @@ function App() {
           <Route exact path='/non_etabli_en_France' component={Foreign} />
           <Route exact path='/prestations2' component={ThirdPrestation} />
           <Route exact path='/prestation3' component={FourthPrestation} />
-          {/* <Route exact path='/FranceThird' component={FranceThird} /> */}
+          <Route exact path='/manifestation_en_france' component={FranceThird} />
           <Route exact path='/autres' component={Others} />
 
           {/* Routes pour les non assujetti */}
