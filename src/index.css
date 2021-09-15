@@ -43,6 +43,7 @@ body {
   background-repeat: no-repeat!important;
   min-height: 95vh!important;
   background-position: bottom -120px right -70px !important;
+  height: unset!important;
 }
 #Container {
   display: flex;
