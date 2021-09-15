@@ -8,7 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 ul, p, li {
-  font-family: 'Open Sans'!important
+  font-family: 'Open Sans'!important;
+  text-align: left;
 }
 h1, h2, h5, h4,h3, .select {
   font-family: 'eina03'!important;
@@ -20,12 +21,13 @@ h4 {
   font-size: 22px!important;
   margin-top: 0;
   text-align: left;
+}
+h4, ul {
   display: flex;
   align-items: center;
+  padding-bottom: 1em;
 }
 ul {
-  display: flex;
-  align-items: center;
   font-size: 16px;
   padding: 0;
   margin: 8px 0;
@@ -150,17 +152,29 @@ hr {
 
 /* MEDIA QUERIES */
 
+
 /* SMARTPHONE */
 @media only screen and (max-width: 1025px) {
+  #welcome, #App, .wrap {
+    /* width: 300px; */
+    padding: 1.5em;
+  }
   #welcome_banner {
     border: 1px solid #d4dadf;
     padding: 0.5em;
+}
+#assujetti {
+  padding-top: 2em;
 }
   #Header{
     display: flex;
     flex-direction: column;
     align-items: left;
     padding-bottom: 48px;
+  }
+  #Header>p {
+    text-align: left;
+    padding-top: 1em;
   }
   #Header>img{
     width: 101px;
@@ -180,6 +194,9 @@ hr {
 }
 ul>img, .return>img {
   margin-right: 1em;
+}
+.breadcrumbs {
+  padding: 0.5em;
 }
 }
 
