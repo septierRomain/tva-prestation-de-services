@@ -32,7 +32,7 @@ const NonAssujetti = () => {
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les ventes à consommer sur place lorsqu’elles sont matériellement exécutées en France</ul>
 
         <div className="select_container">
-          <Link to='/France'><button className='select'>Oui</button></Link>
+          <Link to='/France_non_soumis'><button className='select'>Oui</button></Link>
           <Link to='/prestation_electronique'><button className='select'>Non</button></Link>
         </div>
 

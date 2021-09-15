@@ -16,6 +16,7 @@ import Home from './Component/Home';
 import NonAssujetti from './Component/NonAssujetti';
 import Electronic from './Component/NonAssujetti/electronic';
 import ForeignUnsubmit from './Component/NonAssujetti/ForeignUnsubmit';
+import FranceUnsubmit from './Component/NonAssujetti/FranceUnsubmit';
 import LocatePrestation from './Component/NonAssujetti/LocatePrestation';
 import WhereUnsubmit from './Component/NonAssujetti/LocateUnsubmit';
 import LocationVehicule from './Component/NonAssujetti/LocationVehicule';
@@ -35,9 +36,11 @@ function App() {
       <div className="App">
         <BrowserRouter>
         <Switch>
+          
           <Route exact path='/'component={Home} />
+          
+          {/* Routes pour les assujetti */}
           <Route exact path='/Assujetti' component={Assujetti} />
-          <Route exact path='/NonAssujetti' component={NonAssujetti} />
           <Route exact path='/France' component={France} />
           <Route exact path='/SecondPrestation' component={SecondPrestation} />
           <Route exact path='/LocatePreneur' component={Where} />
@@ -46,6 +49,9 @@ function App() {
           <Route exact path='/FourthPrestation' component={FourthPrestation} />
           <Route exact path='/FranceThird' component={FranceThird} />
           <Route exact path='/autres' component={Others} />
+
+          {/* Routes pour les non assujetti */}
+          <Route exact path='/NonAssujetti' component={NonAssujetti} />
           <Route exact path='/preneur_non_assujetti' component={WhereUnsubmit} />
           <Route exact path='/prestation_electronique' component={Electronic} />
           <Route exact path='/exoneration_tva' component={HorsUE} />
@@ -61,6 +67,8 @@ function App() {
           <Route exact path='/location_vehicule' component={LocationVehicule} />
           <Route exact path='/location_vehicule_procedure' component={LocationVehiculeFinal} />
           <Route exact path='/autres_non_assujetti' component={UnsubmitOthers} />
+          <Route exact path='/France_non_soumis' component={FranceUnsubmit} />
+
         </Switch>
         </BrowserRouter>
       </div>
