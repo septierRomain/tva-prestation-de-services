@@ -31,11 +31,11 @@ const Electronic = () => {
       <h4>S'agit il d'une des prestations suivantes ? </h4>
         <ul>
           <img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
-          télécommunication
+          Télécommunication
           <ModalTélécom />
         </ul>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />radiodiffusion et de télévision<ModalTV /></ul>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />services fournis par voie électronique<ModalElectronic /></ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Radiodiffusion et de télévision<ModalTV /></ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Services fournis par voie électronique<ModalElectronic /></ul>
 
         <div className="select_container">
           <Link to='/preneur_non_assujetti'><button className='select'>Oui</button></Link>
