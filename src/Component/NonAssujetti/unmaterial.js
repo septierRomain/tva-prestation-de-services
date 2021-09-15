@@ -5,6 +5,7 @@ import Banner from '../App/Banner';
 
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
+import ModalImaterial from '../Modal/immaterielles';
 
 const Unmaterial = () => {
   return ( 
@@ -22,7 +23,7 @@ const Unmaterial = () => {
           <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
         </div>
 
-      <h4>S'agit il d'une des prestations immatérielles ?</h4>
+      <h4>S'agit il d'une des prestations immatérielles ?<ModalImaterial /> </h4>
 
         <div className="select_container">
           <Link to='/preneur_immaterielles'><button className='select'>Oui</button></Link>

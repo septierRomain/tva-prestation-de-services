@@ -20,6 +20,8 @@ h4 {
   font-size: 22px!important;
   margin-top: 0;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 ul {
   display: flex;
