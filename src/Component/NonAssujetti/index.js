@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 import Banner from '../App/Banner';
 
@@ -8,12 +8,13 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 
 const NonAssujetti = () => {
+  let history = useHistory()
   return ( 
     <div className="wrap">
       <Banner />
       <div>
       <Link to='/'>
-        <button className="return">
+        <button onClick={() =>history.goBack()} className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
         </button>

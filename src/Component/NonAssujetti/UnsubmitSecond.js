@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link,  useHistory } from 'react-router-dom'
 
 import Banner from '../App/Banner';
 
@@ -8,16 +8,16 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 
 const UnsubmitSecond = () => {
+  let history = useHistory()
   return ( 
     <div className="wrap">
       <Banner />
       <div>
-      <Link to='/transport'>
-        <button className="return">
+
+        <button onClick={() =>history.goBack()} className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
         </button>
-      </Link>
 
         <div className="breadcrumbs">
           <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>

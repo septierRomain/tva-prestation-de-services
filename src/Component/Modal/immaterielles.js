@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Header, Icon, Modal } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
 
 function ModalImaterial() {
   const [open, setOpen] = React.useState(false)

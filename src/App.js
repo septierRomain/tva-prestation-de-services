@@ -10,8 +10,6 @@ import ThirdPrestation from './Component/Assujetti/ThirdPrestation';
 import Foreign from './Component/Foreign';
 import HorsUE from './Component/Foreign/HorsUE';
 import France from './Component/France';
-import FranceBis from './Component/France/FranceBis';
-import FranceFourth from './Component/France/FranceFourth';
 import FranceThird from './Component/France/FranceThird';
 import Others from './Component/France/Others';
 import Home from './Component/Home';
@@ -37,90 +35,32 @@ function App() {
       <div className="App">
         <BrowserRouter>
         <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/Assujetti'>
-            <Assujetti />
-          </Route>
-          <Route exact path='/NonAssujetti'>
-            <NonAssujetti />
-          </Route>
-          <Route exact path='/France'>
-            <France />
-          </Route>
-          <Route exact path='/FranceBis'>
-            <FranceBis />
-          </Route>
-          <Route exact path='/SecondPrestation'>
-            <SecondPrestation />
-          </Route>
-          <Route exact path='/LocatePreneur'>
-            <Where />
-          </Route>
-          <Route exact path='/Foreign'>
-            <Foreign />
-          </Route>
-          <Route exact path='/ThirdPrestation'>
-            <ThirdPrestation />
-          </Route>
-          <Route exact path='/FourthPrestation'>
-            <FourthPrestation />
-          </Route>
-          <Route exact path='/FranceThird'>
-            <FranceThird />
-          </Route>
-          <Route exact path='/FranceFourth'>
-            <FranceFourth />
-          </Route>
-          <Route exact path='/autres'>
-            <Others />
-          </Route>
-          <Route exact path='/preneur_non_assujetti'>
-            <WhereUnsubmit />
-          </Route>
-          <Route exact path='/prestation_electronique'>
-            <Electronic />
-          </Route>
-          <Route exact path='/exoneration_tva'>
-            <HorsUE />
-          </Route>
-          <Route exact path='/UE'>
-            <UE />
-          </Route>
-          <Route exact path='/OSS'>
-            <OSS />
-          </Route>
-          <Route exact path='/immaterielles'>
-            <Unmaterial />
-          </Route>
-          <Route exact path='/preneur_immaterielles'>
-            <WhereUnmaterial />
-          </Route>
-          <Route exact path='/non_soumis_hors_ue'>
-            <ForeignUnsubmit />
-          </Route>
-          <Route exact path='/transport'>
-            <Transport />
-          </Route>
-          <Route exact path='/prestation_transport'>
-            <TransportFinal />
-          </Route>
-          <Route exact path='/prestations_non_assujetti'>
-            <UnsubmitSecond />
-          </Route>
-          <Route exact path='/lieu_de_prestation'>
-            <LocatePrestation />
-          </Route>
-          <Route exact path='/location_vehicule'>
-            <LocationVehicule />
-          </Route>
-          <Route exact path='/location_vehicule_procedure'>
-            <LocationVehiculeFinal />
-          </Route>
-          <Route exact path='/autres_non_assujetti'>
-            <UnsubmitOthers />
-          </Route>
+          <Route exact path='/'component={Home} />
+          <Route exact path='/Assujetti' component={Assujetti} />
+          <Route exact path='/NonAssujetti' component={NonAssujetti} />
+          <Route exact path='/France' component={France} />
+          <Route exact path='/SecondPrestation' component={SecondPrestation} />
+          <Route exact path='/LocatePreneur' component={Where} />
+          <Route exact path='/Foreign' component={Foreign} />
+          <Route exact path='/ThirdPrestation' component={ThirdPrestation} />
+          <Route exact path='/FourthPrestation' component={FourthPrestation} />
+          <Route exact path='/FranceThird' component={FranceThird} />
+          <Route exact path='/autres' component={Others} />
+          <Route exact path='/preneur_non_assujetti' component={WhereUnsubmit} />
+          <Route exact path='/prestation_electronique' component={Electronic} />
+          <Route exact path='/exoneration_tva' component={HorsUE} />
+          <Route exact path='/UE' component={UE} />
+          <Route exact path='/OSS' component={OSS} />
+          <Route exact path='/immaterielles' component={Unmaterial} />
+          <Route exact path='/preneur_immaterielles' component={WhereUnmaterial} />
+          <Route exact path='/non_soumis_hors_ue' component={ForeignUnsubmit} />
+          <Route exact path='/transport' component={Transport} />
+          <Route exact path='/prestation_transport' component={TransportFinal} />
+          <Route exact path='/prestations_non_assujetti' component={UnsubmitSecond} />
+          <Route exact path='/lieu_de_prestation' component={LocatePrestation} />
+          <Route exact path='/location_vehicule' component={LocationVehicule} />
+          <Route exact path='/location_vehicule_procedure' component={LocationVehiculeFinal} />
+          <Route exact path='/autres_non_assujetti' component={UnsubmitOthers} />
         </Switch>
         </BrowserRouter>
       </div>
