@@ -42,16 +42,16 @@ function App() {
           {/* Routes pour les assujetti */}
           <Route exact path='/Assujetti' component={Assujetti} />
           <Route exact path='/France' component={France} />
-          <Route exact path='/SecondPrestation' component={SecondPrestation} />
-          <Route exact path='/LocatePreneur' component={Where} />
-          <Route exact path='/Foreign' component={Foreign} />
-          <Route exact path='/ThirdPrestation' component={ThirdPrestation} />
-          <Route exact path='/FourthPrestation' component={FourthPrestation} />
-          <Route exact path='/FranceThird' component={FranceThird} />
+          <Route exact path='/prestations' component={SecondPrestation} />
+          <Route exact path='/preneur' component={Where} />
+          <Route exact path='/non_etabli_en_France' component={Foreign} />
+          <Route exact path='/prestations2' component={ThirdPrestation} />
+          <Route exact path='/prestation3' component={FourthPrestation} />
+          {/* <Route exact path='/FranceThird' component={FranceThird} /> */}
           <Route exact path='/autres' component={Others} />
 
           {/* Routes pour les non assujetti */}
-          <Route exact path='/NonAssujetti' component={NonAssujetti} />
+          <Route exact path='/non_assujetti' component={NonAssujetti} />
           <Route exact path='/preneur_non_assujetti' component={WhereUnsubmit} />
           <Route exact path='/prestation_electronique' component={Electronic} />
           <Route exact path='/exoneration_tva' component={HorsUE} />

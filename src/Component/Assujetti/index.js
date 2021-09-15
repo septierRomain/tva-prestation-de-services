@@ -31,7 +31,7 @@ const Assujetti = () => {
 
         <div className="select_container">
           <Link to='/France'><button className='select'>Oui</button></Link>
-          <Link to='/SecondPrestation'><button className='select'>Non</button></Link>
+          <Link to='/prestations'><button className='select'>Non</button></Link>
         </div>
 
       </div>

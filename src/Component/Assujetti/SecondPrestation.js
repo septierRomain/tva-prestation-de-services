@@ -32,8 +32,8 @@ const SecondPrestation = () => {
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de services liées à des activités culturelles, artistiques, sportives, scientifiques, éducatives... <br /> Mais ne consistant pas à donner accès à des manifestations de ce type</ul>
 
       <div className="select_container">
-        <Link to='/LocatePreneur'><button className='select'>Oui</button></Link>
-        <Link to='/ThirdPrestation'><button className='select'>Non</button></Link>
+        <Link to='/preneur'><button className='select'>Oui</button></Link>
+        <Link to='/prestations2'><button className='select'>Non</button></Link>
       </div>
       
       </div>
