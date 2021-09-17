@@ -25,7 +25,7 @@ const ForeignUnsubmit = () => {
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas établi en Union Européenne (France inclus)</p>
       </div>
 
-      <h4>La procédure :</h4>
+      <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays du preneur</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez dans le pays aux taux du pays</ul>
 

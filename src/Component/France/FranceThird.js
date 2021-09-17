@@ -25,7 +25,7 @@ const FranceThird = () => {
         <p><img src={Check} alt="fleche grise"/>Il s'agit d'une manifestation culturelle, sportive, scientifique...</p>
       </div>
 
-      <h4>La procédure :</h4>
+      <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Lorsque de telles manifestations ont lieu en France, elles sont imposables à la TVA française. <br /> (déclaration de TVA en France + taux français)</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Si elles ont lieu dans un autre pays d'UE ou un pays tiers, alors elles sont imposables dans le pays concerné. <br />Il faut également faire une DES.</ul>
 

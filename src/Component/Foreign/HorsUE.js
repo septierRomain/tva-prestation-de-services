@@ -25,7 +25,7 @@ const HorsUE = () => {
         <p><img src={Check} alt="fleche grise"/>Le preneur est établi en dehors de l'Union Européenne</p>
       </div>
 
-      <h4>La procédure :</h4>
+      <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Exonéré de TVA</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Facture hors taxes</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Mention « TVA non applicable – art. 259-1 du CGI » sur la facture</ul>

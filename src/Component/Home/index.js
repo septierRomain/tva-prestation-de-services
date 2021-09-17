@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { Icon } from 'semantic-ui-react'
 import Banner from '../App/Banner';
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <div id="welcome_banner">
         <h1>Bonjour et bienvenue sur notre simulateur de TVA pour les prestations de services</h1>
         <p>Découvrez en quelques clics les spécificités de votre TVA et de sa déclaration.</p>
+        <p><Icon name='warning sign' color='red' /> <span style={{fontWeight: 'bold', textDecoration: 'underline'}}>Attention</span> : ce simulateur ne concerne que les prestataires de services est situé en France</p>
         <p>C’est parti !</p>
       </div>
 

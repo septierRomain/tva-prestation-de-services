@@ -31,7 +31,7 @@ const Others = () => {
       </div>
       <hr />
 
-      <h4>La procédure :</h4>
+      <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition en France</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en France au taux Français</ul>
 

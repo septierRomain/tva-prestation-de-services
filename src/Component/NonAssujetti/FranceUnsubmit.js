@@ -25,7 +25,7 @@ const FranceUnsubmit = () => {
         <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment</p>
       </div>
 
-      <h4>La procédure :</h4>
+      <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition en France</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en France au taux Français</ul>
 
