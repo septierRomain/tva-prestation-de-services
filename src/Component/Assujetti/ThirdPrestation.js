@@ -25,7 +25,6 @@ const ThirdPrestation = () => {
 
       <h4>S'agit il d'une des prestations suivantes ?</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les locations de moyens de transport de longue durée</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations  dont l’objet sont des activités culturelles, artistiques, sportives, scientifiques, éducatives, divertissement mais ne donnant pas accès à des manifestations de cette nature <br /> (Attention: Règles spécifiques existant pour les foires et les salons)</ul>
 
       <div className="select_container">
         <Link to='/preneur'><button className='select'>Oui</button></Link>
