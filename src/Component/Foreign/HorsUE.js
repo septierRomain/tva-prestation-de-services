@@ -28,7 +28,7 @@ const HorsUE = () => {
       <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Exonéré de TVA</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Facture hors taxes</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Mention « TVA non applicable – art. 259-1 du CGI » sur la facture</ul>
+      {/* <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Mention « TVA non applicable – art. 259-1 du CGI » sur la facture</ul> */}
 
       <div className="button">
         <Redo />
