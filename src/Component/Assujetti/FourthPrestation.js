@@ -28,7 +28,7 @@ const FourthPrestation = () => {
 
       <div className="select_container">
         <Link to='/manifestation_en_france'><button className='select'>Oui</button></Link>
-        <Link to='/autres'><button className='select'>Non</button></Link>
+        <Link to='/localisation_assujetti'><button className='select'>Non</button></Link>
       </div>
       
       </div>

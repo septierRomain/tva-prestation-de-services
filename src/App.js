@@ -30,6 +30,8 @@ import Unmaterial from './Component/NonAssujetti/unmaterial';
 import UnsubmitOthers from './Component/NonAssujetti/UnsubmitOthers';
 import UnsubmitSecond from './Component/NonAssujetti/UnsubmitSecond';
 import WhereUnmaterial from './Component/NonAssujetti/WhereUnmaterial';
+import WhereOthers from './Component/Assujetti/LocateSubmit';
+import OthersOutside from './Component/Foreign/OthersOutside';
 
 function App() {
   return (
@@ -49,7 +51,9 @@ function App() {
           <Route exact path='/prestations2' component={ThirdPrestation} />
           <Route exact path='/prestation3' component={FourthPrestation} />
           <Route exact path='/manifestation_en_france' component={FranceThird} />
-          <Route exact path='/autres' component={Others} />
+          <Route exact path='/autres_en_france' component={Others} />
+          <Route exact path='/autres_hors_france' component={OthersOutside} />
+          <Route exact path='/localisation_assujetti' component={WhereOthers} />
 
           {/* Routes pour les non assujetti */}
           <Route exact path='/non_assujetti' component={NonAssujetti} />
