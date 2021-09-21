@@ -26,7 +26,7 @@ const OSS = () => {
         <p><img src={Check} alt="fleche grise"/>Vous faites plus de 10 000€ de CA vers l'Union Européenne</p>
       </div>
 
-      <h4>Règle générale d'imposition :</h4>
+      <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays du preneur au taux de ce pays</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en via l'OSS ou la déclaration nationale du pays</ul>
 

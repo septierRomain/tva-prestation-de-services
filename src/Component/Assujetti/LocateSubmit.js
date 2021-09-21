@@ -19,7 +19,7 @@ const WhereOthers = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti a la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA</p>
       </div>
 
       <h2>Le preneur assujetti est il établi en France ?</h2>

@@ -23,7 +23,7 @@ const Assujetti = () => {
         </div>
 
       <h4>S'agit il d'une des prestations suivantes ?</h4>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les locations de moyens de transport de courte durée lorsque le moyen de transport est mis à disposition du preneur en France. <br /> (exemple: le véhicule de location est récupéré en France</ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les locations de moyens de transport de courte durée lorsque le moyen de transport est mis à disposition du preneur en France. <br /> (exemple: le véhicule de location est récupéré en France)</ul>
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de services se rattachant à un bien immeuble situé en France</ul>
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les locations de biens meubles corporels autres que les moyens de transport, lorsqu’ils sont utilisés en France</ul>
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport de passagers situées en France en fonction des distances qui y sont parcourues</ul>

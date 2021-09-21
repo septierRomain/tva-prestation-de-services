@@ -25,7 +25,7 @@ const LocationVehiculeFinal = () => {
         <p><img src={Check} alt="fleche grise"/>il s'agit de location de moyens de transport de longue durée</p>
       </div>
 
-      <h4>Règle générale d'imposition :</h4>
+      <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Bateaux de plaisance : prestations situées en France donc imposables à la TVA française si le preneur non assujetti est établi en France ou si le preneur non assujetti est non établi en France et que la mise à disposition est faite en France (prestataire français impérativement).</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Autres que les bateaux de plaisance : prestations situées en France donc imposables en France si le preneur est établi en France ou si le preneur est hors d’UE mais que le service est utilisé en France.</ul>
 
