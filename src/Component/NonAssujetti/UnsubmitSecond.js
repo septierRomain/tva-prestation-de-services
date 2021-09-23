@@ -25,7 +25,7 @@ const UnsubmitSecond = () => {
 
       <h4>S'agit il d'une des prestations suivantes ?</h4>
         <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Prestations de services ayant pour objet des activités culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions, y compris les prestations de services des organisateurs de telles activités, ainsi que les prestations de services accessoires à ces activités, hébergements et ventes à consommer sur place</ul>
-        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Ttravaux et expertises sur biens meubles corporels</ul>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Travaux et expertises sur biens meubles corporels</ul>
 
         <div className="select_container">
           <Link to='/lieu_de_prestation'><button className='select'>Oui</button></Link>

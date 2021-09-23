@@ -26,7 +26,7 @@ const HorsUE = () => {
       </div>
 
       <h4>La procédure :</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Exonéré de TVA</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Opération n'entrant pas dans le champ d'application de la TVA <br /> la TVA ne doit donc pas être appliquée</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Facture hors taxes</ul>
       {/* <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Mention « TVA non applicable – art. 259-1 du CGI » sur la facture</ul> */}
 
