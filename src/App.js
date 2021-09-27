@@ -36,6 +36,8 @@ import Immeuble from './Component/Assujetti/immeuble';
 import WhereImmeuble from './Component/Assujetti/WhereImmeuble';
 import ImmeubleFinal from './Component/Assujetti/ImmeubleFinal';
 import ImmeubleAutres from './Component/Assujetti/ImmeubleAutres';
+import WhereCultural from './Component/Assujetti/WhereCultural';
+import ForeignManifestation from './Component/Assujetti/ForeignManifestation';
 
 function App() {
   return (
@@ -62,6 +64,8 @@ function App() {
           <Route exact path='/localisation_immeuble' component={WhereImmeuble} />
           <Route exact path='/immeuble_autres' component={ImmeubleAutres} />
           <Route exact path='/immeuble_imposition' component={ImmeubleFinal} />
+          <Route exact path='/manifestation' component={WhereCultural} />
+          <Route exact path='/manifestation_hors_france' component={ForeignManifestation} />
 
           {/* Routes pour les non assujetti */}
           <Route exact path='/non_assujetti' component={NonAssujetti} />
