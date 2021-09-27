@@ -24,7 +24,7 @@ const FourthPrestation = () => {
       </div>
 
       <h4>S'agit il d'une des prestations suivantes ?</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />S'agit il de prestations de services, ainsi que celles qui leur sont accessoires, consistant à donner accès à des manifestations culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions ?</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Prestations de services, ainsi que celles qui leur sont accessoires, consistant à donner accès à des manifestations culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions ?</ul>
 
       <div className="select_container">
         <Link to='/manifestation'><button className='select'>Oui</button></Link>

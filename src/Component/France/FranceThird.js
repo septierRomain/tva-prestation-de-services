@@ -23,6 +23,7 @@ const FranceThird = () => {
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA</p>
         <p><img src={Check} alt="fleche grise"/>Il s'agit d'une manifestation culturelle, sportive, scientifique...</p>
+        <p><img src={Check} alt="fleche grise"/>La prestation à lieu en France</p>
       </div>
 
       <h4>La procédure :</h4>

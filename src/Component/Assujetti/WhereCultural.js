@@ -19,7 +19,8 @@ const WhereCultural = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti a la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Il s'agit d'une manifestation culturelle, sportive, scientifique...</p>
       </div>
 
       <h2>La manifestation a-t-elle lieu en France ?</h2>
