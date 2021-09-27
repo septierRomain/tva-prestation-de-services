@@ -20,6 +20,7 @@ const WhereUnsubmit = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
       </div>
 
       <h2>Le preneur est il établi :</h2>

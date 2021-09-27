@@ -20,6 +20,7 @@ const WhereUnmaterial = () => {
 
         <div className="breadcrumbs">
           <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
+          <p><img src={Check} alt="fleche grise"/>Il s'agit de prestations immatérielles</p>
         </div>
 
       <h4>Le preneur est il établi en France ou dans un autre Etat d'UE ?</h4>

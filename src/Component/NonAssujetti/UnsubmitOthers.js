@@ -7,6 +7,7 @@ import Redo from '../App/Redo'
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
+import Prestation from '../../Assets/categories/prestation france.png'
 
 const UnsubmitOthers = () => {
   let history = useHistory()
@@ -25,8 +26,15 @@ const UnsubmitOthers = () => {
       </div>
 
       <h4>Régle générale d'imposition :</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />En dehors des cas spécifiques mentionnés précédemment, le lieu des prestations de services  est situé en France lorsque le prestataire est établi en France ou dispose en France d’un établissement stable à partir duquel les services sont dispensés.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />En dehors des cas spécifiques mentionnés précédemment, le lieu des prestations de services est situé en France lorsque le prestataire est établi en France ou dispose en France d’un établissement stable à partir duquel les services sont dispensés.</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Dans le cas où ce prestataire français dispose d’un établissement stable dans un autre pays et que la prestation est réalisée depuis cet autre pays, la prestation est imposable dans ce dernier.</ul>
+
+      <hr />
+        <div className='categorie' >
+          <h4>Si vous êtes client Dougs : </h4>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva selon la nature de votre activité</ul>
+          <img src={Prestation} alt="Categorie UE" />
+        </div>
 
       <div className="button">
         <Redo />

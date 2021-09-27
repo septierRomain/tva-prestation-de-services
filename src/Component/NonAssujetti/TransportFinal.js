@@ -7,6 +7,7 @@ import Redo from '../App/Redo'
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
+import PrestationTransport from '../../Assets/categories/prestation transport.png'
 
 const TransportFinal = () => {
   let history =useHistory()
@@ -26,8 +27,16 @@ const TransportFinal = () => {
       </div>
 
       <h4>La procédure :</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport intracommunautaires de biens  dont le lieu de départ du transport est en France sont imposables en France</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport de biens  autres que les transports intracommunautaires de biens et les prestations de transport de passagers, sont imposables en France mais pour les seuls distances parcourues en France</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport intracommunautaires de biens  dont le lieu de départ du transport est en France sont imposables en France.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport de biens autres que les transports intracommunautaires de biens sont imposables en France mais pour les seules distances parcourues en France.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les prestations de transport de passagers sont imposables en France mais pour les seules distances parcourues en France.</ul>
+
+      <hr />
+      <div className='categorie' >
+        <h4>Si vous êtes client Dougs : </h4>
+        <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva (exonéré, 10% ou 20% selon la nature de votre activité)</ul>
+        <img src={PrestationTransport} alt="Categorie UE" />
+      </div>
 
       <div className="button">
         <Redo />

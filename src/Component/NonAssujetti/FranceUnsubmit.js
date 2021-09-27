@@ -7,6 +7,7 @@ import Redo from '../App/Redo'
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
+import Prestations from '../../Assets/categories/prestation france.png'
 
 const FranceUnsubmit = () => {
   let history = useHistory()
@@ -25,16 +26,23 @@ const FranceUnsubmit = () => {
         <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment</p>
       </div>
 
-      <hr />
+      {/* <hr />
       <div class='square'>
         <p> Si la prestation a été réalisé en France l'imposition a lieu en France, déclaration et taux français.
         Si la prestation n'est pas réalisée en France, alors l'imposition à TVA a lieu dans le pays où est exécutée cette prestation.</p>
       </div>
-      <hr />
+      <hr /> */}
 
       <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition en France</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en France au taux Français</ul>
+
+      <hr />
+        <div className='categorie' >
+          <h4>Si vous êtes client Dougs : </h4>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva (5.5%, 10% ou 20% selon la nature de votre activité)</ul>
+          <img src={Prestations} alt="Categorie UE" />
+        </div>
 
       <div className="button">
         <Redo />
