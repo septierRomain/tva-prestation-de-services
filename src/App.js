@@ -32,6 +32,10 @@ import UnsubmitSecond from './Component/NonAssujetti/UnsubmitSecond';
 import WhereUnmaterial from './Component/NonAssujetti/WhereUnmaterial';
 import WhereOthers from './Component/Assujetti/LocateSubmit';
 import OthersOutside from './Component/Foreign/OthersOutside';
+import Immeuble from './Component/Assujetti/immeuble';
+import WhereImmeuble from './Component/Assujetti/WhereImmeuble';
+import ImmeubleFinal from './Component/Assujetti/ImmeubleFinal';
+import ImmeubleAutres from './Component/Assujetti/ImmeubleAutres';
 
 function App() {
   return (
@@ -54,6 +58,10 @@ function App() {
           <Route exact path='/autres_en_france' component={Others} />
           <Route exact path='/autres_hors_france' component={OthersOutside} />
           <Route exact path='/localisation_assujetti' component={WhereOthers} />
+          <Route exact path='/immeuble' component={Immeuble} />
+          <Route exact path='/localisation_immeuble' component={WhereImmeuble} />
+          <Route exact path='/immeuble_autres' component={ImmeubleAutres} />
+          <Route exact path='/immeuble_imposition' component={ImmeubleFinal} />
 
           {/* Routes pour les non assujetti */}
           <Route exact path='/non_assujetti' component={NonAssujetti} />

@@ -33,7 +33,7 @@ const SecondPrestation = () => {
 
       <div className="select_container">
         <Link to='/preneur'><button className='select'>Oui</button></Link>
-        <Link to='/prestations2'><button className='select'>Non</button></Link>
+        <Link to='/immeuble'><button className='select'>Non</button></Link>
       </div>
       
       </div>
