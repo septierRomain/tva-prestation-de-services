@@ -29,7 +29,7 @@ const ImmeubleAutres = () => {
       <div class='square'>
         <p>Les prestations de services se rattachant à un immeuble sont imposables au taux de TVA et dans le pays du lieu de situation de l'immeuble.
         Par exemple : les travaux immobiliers, les prestations des agents immobiliers ou des architectes.
-
+        <br />
         L'immeuble ne se situant pas en France, les prestations seront imposables dans le pays de localisation du bien, au taux de TVA de celui-ci.</p>
       </div>
       <hr />
