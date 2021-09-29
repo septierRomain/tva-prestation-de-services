@@ -7,6 +7,7 @@ import Redo from '../App/Redo'
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
+import Prestations from '../../Assets/categories/prestation france.png'
 
 const FranceThird = () => {
   let history = useHistory()
@@ -26,9 +27,24 @@ const FranceThird = () => {
         <p><img src={Check} alt="fleche grise"/>La prestation à lieu en France</p>
       </div>
 
+      <hr />
+      <div class='square'>
+        <p>Les prestations de services se rattachant à un immeuble sont imposables au taux de TVA et dans le pays du lieu de situation de l'immeuble.
+        Par exemple : les travaux immobiliers, les prestations des agents immobiliers ou des architectes.</p>
+        <p>L'immeuble se situant en France, elles seront donc imposées à la TVA française, dans ce pays (attention, plusieurs taux de TVA existent selon la nature des travaux et l'affectation de l'immeuble).</p>
+      </div>
+      <hr />
+
       <h4>La procédure :</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Lorsque de telles manifestations ont lieu en France, elles sont imposables à la TVA française. <br /> (déclaration de TVA en France + taux français)</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Si elles ont lieu dans un autre pays d'UE ou un pays tiers, alors elles sont imposables dans le pays concerné. <br />Il faut également faire une DES.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition en France</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en France au taux Français</ul>
+
+      <hr />
+        <div className='categorie' >
+          <h4>Si vous êtes client Dougs : </h4>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva</ul>
+          <img src={Prestations} alt="Categorie UE" />
+        </div>
 
       <div className="button">
         <Redo />

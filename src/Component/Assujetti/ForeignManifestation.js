@@ -28,14 +28,13 @@ const ForeignManifestation = () => {
 
       <hr />
       <div class='square'>
-        <p>La prestation est imposable dans le pays du preneur.
-        Appliquer le taux de TVA du pays du preneur (sauf existence d'un dispositif d'autoliquidation - facturation HT le cas échéant)
-        Vous devez vous enregistrer à la TVA auprès de ce pays et y effectuer votre déclaration (sauf existence d'un dispositif d'autoliquidation)
-        Un déclaration d'échange de services est à effectuer dès le 1er euro facturé.</p>
+        <p>Les prestations de services se rattachant à un immeuble sont imposables au taux de TVA et dans le pays du lieu de situation de l'immeuble.
+        Par exemple : les travaux immobiliers, les prestations des agents immobiliers ou des architectes.</p>
+        <p>L'immeuble ne se situant pas en France, les prestations seront imposables dans le pays de localisation du bien, au taux de TVA de celui-ci.</p>
       </div>
       <hr />
 
-      <h4>Régle générale d'imposition :</h4>
+      <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays du preneur</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez dans le pays du preneur au taux de tva du pays</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Etablir la déclaration d'echange de services</ul>
