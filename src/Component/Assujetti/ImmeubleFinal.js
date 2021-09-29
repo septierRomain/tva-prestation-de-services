@@ -2,10 +2,12 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 
 import Banner from '../App/Banner'
+import Redo from '../App/Redo'
 
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
+import Prestations from '../../Assets/categories/prestation france.png'
 
 const ImmeubleFinal = () => {
   let history = useHistory()
@@ -36,6 +38,17 @@ const ImmeubleFinal = () => {
       <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition en France</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en France au taux Français</ul>
+
+      <hr />
+        <div className='categorie' >
+          <h4>Si vous êtes client Dougs : </h4>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva</ul>
+          <img src={Prestations} alt="Categorie UE" />
+        </div>
+
+      <div className="button">
+        <Redo />
+      </div>
 
       </div>
     </div>

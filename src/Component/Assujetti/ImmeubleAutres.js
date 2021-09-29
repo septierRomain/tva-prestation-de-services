@@ -2,6 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 
 import Banner from '../App/Banner'
+import Redo from '../App/Redo'
 
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
@@ -36,6 +37,10 @@ const ImmeubleAutres = () => {
       <h4>Règle générale d'imposition :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays de localisation du bien</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez dans le pays au taux du pays</ul>
+
+      <div className="button">
+        <Redo />
+      </div>
 
       </div>
     </div>
