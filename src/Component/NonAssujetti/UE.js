@@ -24,7 +24,9 @@ const UE = () => {
         <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
       </div>
 
-      <h3 style={{ textAlign:'justify' }} >Vous avez réalisé (ou vous prévoyez de réaliser) plus de 10 000 € de chiffre d'affaires sur l'année civile  au titre des ventes à distance intracommunautaires et  des prestations de télécommunications, les services de radiodiffusion et de télévision ainsi que les services fournis par voie électronique effectués auprès de personnes non assujetties ou  avez opté pour l'OSS / IOSS</h3>
+      <h4>Informations complémentaires:</h4>
+      <p style={{ textAlign:'justify' }} >Vous avez réalisé (ou vous prévoyez de réaliser) plus de 10 000 € de chiffre d'affaires sur l'année civile  au titre des ventes à distance intracommunautaires et  des prestations de télécommunications, les services de radiodiffusion et de télévision ainsi que les services fournis par voie électronique effectués auprès de personnes non assujetties ou  avez opté pour l'OSS / IOSS</p>
+
       <div className="select_container">
         <Link to='/OSS' ><button className='select'>Oui</button></Link>
         <Link to='/France_non_soumis' ><button className='select'>Non</button></Link>

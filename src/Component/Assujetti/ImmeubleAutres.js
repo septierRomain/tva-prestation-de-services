@@ -34,7 +34,7 @@ const ImmeubleAutres = () => {
       </div>
       <hr />
 
-      <h4>Règle générale d'imposition :</h4>
+      <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays de localisation du bien</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez dans le pays au taux du pays</ul>
 
