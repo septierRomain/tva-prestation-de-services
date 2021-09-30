@@ -28,9 +28,7 @@ const ForeignManifestation = () => {
 
       <hr />
       <div class='square'>
-        <p>Les prestations de services se rattachant à un immeuble sont imposables au taux de TVA et dans le pays du lieu de situation de l'immeuble.
-        Par exemple : les travaux immobiliers, les prestations des agents immobiliers ou des architectes.</p>
-        <p>L'immeuble ne se situant pas en France, les prestations seront imposables dans le pays de localisation du bien, au taux de TVA de celui-ci.</p>
+        <p>Les prestations de services fournies à un assujetti, ainsi que celles qui leur sont accessoires, consistant à donner accès à des manifestations culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions lorsque ces manifestations ne sont pas imposables en France si elles n'ont pas effectivement lieu en France.</p>
       </div>
       <hr />
 

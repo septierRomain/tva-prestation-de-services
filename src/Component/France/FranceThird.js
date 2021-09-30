@@ -29,9 +29,7 @@ const FranceThird = () => {
 
       <hr />
       <div class='square'>
-        <p>Les prestations de services se rattachant à un immeuble sont imposables au taux de TVA et dans le pays du lieu de situation de l'immeuble.
-        Par exemple : les travaux immobiliers, les prestations des agents immobiliers ou des architectes.</p>
-        <p>L'immeuble se situant en France, elles seront donc imposées à la TVA française, dans ce pays (attention, plusieurs taux de TVA existent selon la nature des travaux et l'affectation de l'immeuble).</p>
+        <p>Les prestations de services fournies à un assujetti, ainsi que celles qui leur sont accessoires, consistant à donner accès à des manifestations culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions lorsque ces manifestations ont effectivement lieu en France.</p>
       </div>
       <hr />
 
