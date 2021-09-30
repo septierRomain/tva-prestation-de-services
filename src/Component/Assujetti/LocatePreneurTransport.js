@@ -6,7 +6,7 @@ import Banner from '../App/Banner'
 import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 
-const Where = () => {
+const WhereTransport = () => {
   let history = useHistory()
   return ( 
     <div className="wrap">
@@ -19,13 +19,14 @@ const Where = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti a la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Il s'agit d'une prestation de location de moyen de transport longue durée</p>
       </div>
 
       <h2>Le preneur est il établi en France ?</h2>
       <div className="select_container">
-        <Link to='France2' ><button className='select'>Oui</button></Link>
-        <Link to='non_etabli_en_France' ><button className='select'>Non</button></Link>
+        <Link to='France3' ><button className='select'>Oui</button></Link>
+        <Link to='location_hors_france' ><button className='select'>Non</button></Link>
       </div>
 
       </div>
@@ -33,4 +34,4 @@ const Where = () => {
 );
 }
 
-export default Where;
+export default WhereTransport;

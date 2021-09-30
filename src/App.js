@@ -38,6 +38,11 @@ import ImmeubleFinal from './Component/Assujetti/ImmeubleFinal';
 import ImmeubleAutres from './Component/Assujetti/ImmeubleAutres';
 import WhereCultural from './Component/Assujetti/WhereCultural';
 import ForeignManifestation from './Component/Assujetti/ForeignManifestation';
+import FranceV1 from './Component/France/France1';
+import FranceV2 from './Component/France/France2';
+import WhereTransport from './Component/Assujetti/LocatePreneurTransport';
+import FranceV3 from './Component/France/France3';
+import ForeignLocation from './Component/Foreign/ForeignLocation';
 
 function App() {
   return (
@@ -51,9 +56,13 @@ function App() {
           {/* Routes pour les assujetti */}
           <Route exact path='/Assujetti' component={Assujetti} />
           <Route exact path='/France' component={France} />
+          <Route exact path='/France1' component={FranceV1} />
+          <Route exact path='/France2' component={FranceV2} />
+          <Route exact path='/France3' component={FranceV3} />
           <Route exact path='/prestations' component={SecondPrestation} />
           <Route exact path='/preneur' component={Where} />
           <Route exact path='/non_etabli_en_France' component={Foreign} />
+          <Route exact path='/location_hors_france' component={ForeignLocation} />
           <Route exact path='/prestations2' component={ThirdPrestation} />
           <Route exact path='/prestation3' component={FourthPrestation} />
           <Route exact path='/manifestation_en_france' component={FranceThird} />
@@ -65,6 +74,7 @@ function App() {
           <Route exact path='/immeuble_autres' component={ImmeubleAutres} />
           <Route exact path='/immeuble_imposition' component={ImmeubleFinal} />
           <Route exact path='/manifestation' component={WhereCultural} />
+          <Route exact path='/preneur_location_transport' component={WhereTransport} />
           <Route exact path='/manifestation_hors_france' component={ForeignManifestation} />
 
           {/* Routes pour les non assujetti */}

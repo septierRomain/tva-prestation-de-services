@@ -152,6 +152,11 @@ hr {
 img {
   max-width: 100%;
 }
+.breadcrumbs_details {
+  color: grey;
+  font-size: 12px;
+  margin-left: 2.7em;
+}
 
 
 /* MEDIA QUERIES */

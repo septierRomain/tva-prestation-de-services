@@ -27,7 +27,7 @@ const ThirdPrestation = () => {
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Les locations de moyens de transport de longue durée</ul>
 
       <div className="select_container">
-        <Link to='/preneur'><button className='select'>Oui</button></Link>
+        <Link to='/preneur_location_transport'><button className='select'>Oui</button></Link>
         <Link to='/prestation3'><button className='select'>Non</button></Link>
       </div>
       

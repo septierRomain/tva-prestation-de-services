@@ -9,7 +9,7 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 import PrestationExo from '../../Assets/categories/prestation exo.png'
 
-const Foreign = () => {
+const ForeignLocation = () => {
   let history = useHistory()
   return ( 
 <div className='wrap'>
@@ -23,17 +23,8 @@ const Foreign = () => {
 
       <div className="breadcrumbs">
       <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA.</p>
+        <p><img src={Check} alt="fleche grise"/>Il s'agit d'une prestation de location de moyen de transport longue durée.</p>
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas établi en France.</p>
-        <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment :</p>
-        <div className='breadcrumbs_details' >
-          <p>Les prestations ne se rattachant pas à un bien immeuble.</p>
-          <p>Les transports de biens.</p>
-          <p>Les expertises et travaux portant sur des biens meubles corporels.</p>
-          <p>Les prestations immatérielles.</p>
-          <p>Les prestations de stockage accompagnées de prestations complexes.</p>
-          <p>Les prestations de services liées à des activités culturelles, artistiques, sportives, scientifiques, éducatives... <br />
-          Mais ne consistant pas à donner accès à des manifestations de ce type.</p>
-        </div>
       </div>
 
       <h4>La procédure :</h4>
@@ -59,4 +50,4 @@ const Foreign = () => {
 );
 }
 
-export default Foreign;
+export default ForeignLocation;
