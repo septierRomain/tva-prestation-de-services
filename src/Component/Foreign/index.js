@@ -23,7 +23,6 @@ const Foreign = () => {
 
       <div className="breadcrumbs">
       <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA.</p>
-        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas établi en France.</p>
         <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment :</p>
         <div className='breadcrumbs_details' >
           <p>Les prestations ne se rattachant pas à un bien immeuble.</p>
@@ -34,6 +33,7 @@ const Foreign = () => {
           <p>Les prestations de services liées à des activités culturelles, artistiques, sportives, scientifiques, éducatives... <br />
           Mais ne consistant pas à donner accès à des manifestations de ce type.</p>
         </div>
+        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas établi en France.</p>
       </div>
 
       <h4>La procédure :</h4>
