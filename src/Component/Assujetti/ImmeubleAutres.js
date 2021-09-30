@@ -35,8 +35,11 @@ const ImmeubleAutres = () => {
       <hr />
 
       <h4>La procédure :</h4>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Imposition dans le pays de localisation du bien</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez dans le pays au taux du pays</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />La prestation n'est pas imposable en France, la TVA française ne doit donc pas être appliquée.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />La facture est établie hors taxes.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Vous devez vous enregistrer à la TVA auprès de ce pays et y effectuer votre déclaration (sauf existence d'un dispositif d'autoliquidation)</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Une déclaration d'échange de services est à effectuer dès le 1er euro facturé.</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Le prestataire français établit une facture sans TVA. Il porte la mention « autoliquidation » sur la facture si le client est un assujetti établi dans l'UE. <br /> Il indique « TVA non applicable – art. 259-1 du CGI » si le client est un assujetti établi hors de l'UE.</ul>
 
       <div className="button">
         <Redo />
