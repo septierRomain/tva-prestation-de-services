@@ -33,8 +33,15 @@ const LocationVehiculeFinal = () => {
       <hr />
         <div className='categorie' >
           <h4>Si vous êtes client Dougs : </h4>
-          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva selon la nature de votre activité</ul>
+          <h5>La prestation est imposable en France selon les critères ci-dessus :</h5>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
+          Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva selon la nature de votre activité</ul>
           <img src={Prestation} alt="Categorie UE" />
+          <h5>La prestation n'est pas imposable en France selon les critères ci-dessus :</h5>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
+          Non imposable en France - Imposition dans le pays du preneur</ul>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
+          Déclarez dans le pays au taux du pays</ul>
         </div>
 
       <div className="button">

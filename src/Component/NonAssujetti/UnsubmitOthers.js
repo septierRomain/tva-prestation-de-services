@@ -23,6 +23,7 @@ const UnsubmitOthers = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Prestations entrant dans les règles générales</p>
       </div>
 
       <h4>La procédure :</h4>
@@ -32,8 +33,14 @@ const UnsubmitOthers = () => {
       <hr />
         <div className='categorie' >
           <h4>Si vous êtes client Dougs : </h4>
+          <h5>La prestation est imposable en France selon les critères ci-dessus :</h5>
           <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva selon la nature de votre activité</ul>
           <img src={Prestation} alt="Categorie UE" />
+          <h5>La prestation n'est pas imposable en France selon les critères ci-dessus :</h5>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
+          Non imposable en France - Imposition dans le pays du preneur</ul>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />
+          Déclarez dans le pays au taux du pays</ul>
         </div>
 
       <div className="button">
