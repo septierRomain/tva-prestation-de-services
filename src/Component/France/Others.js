@@ -24,6 +24,7 @@ const Others = () => {
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur est assujetti à la TVA</p>
         <p><img src={Check} alt="fleche grise"/>Le preneur est établi en France</p>
+        <p><img src={Check} alt="fleche grise"/>Prestations entrant dans les règles générales</p>
       </div>
 
       <hr />
