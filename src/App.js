@@ -43,6 +43,11 @@ import FranceV2 from './Component/France/France2';
 import WhereTransport from './Component/Assujetti/LocatePreneurTransport';
 import FranceV3 from './Component/France/France3';
 import ForeignLocation from './Component/Foreign/ForeignLocation';
+import FranceElectronic from './Component/NonAssujetti/FranceElectronic';
+import FranceUnsubmitUE from './Component/NonAssujetti/FranceUnsubmitUE';
+import FranceUnsubmitImmaterial from './Component/NonAssujetti/FranceUnsubmitImaterial';
+import FranceUnsubmitV2 from './Component/NonAssujetti/FranceUnsubmit2';
+import ForeignUnsubmitV2 from './Component/NonAssujetti/ForeignUnsubmit2';
 
 function App() {
   return (
@@ -81,12 +86,14 @@ function App() {
           <Route exact path='/non_assujetti' component={NonAssujetti} />
           <Route exact path='/preneur_non_assujetti' component={WhereUnsubmit} />
           <Route exact path='/prestation_electronique' component={Electronic} />
+          <Route exact path='/prestation_electronique_france' component={FranceElectronic} />
           <Route exact path='/exoneration_tva' component={HorsUE} />
           <Route exact path='/UE' component={UE} />
           <Route exact path='/OSS' component={OSS} />
           <Route exact path='/immaterielles' component={Unmaterial} />
           <Route exact path='/preneur_immaterielles' component={WhereUnmaterial} />
           <Route exact path='/non_soumis_hors_ue' component={ForeignUnsubmit} />
+          <Route exact path='/non_soumis_hors_ue2' component={ForeignUnsubmitV2} />
           <Route exact path='/transport' component={Transport} />
           <Route exact path='/prestation_transport' component={TransportFinal} />
           <Route exact path='/prestations_non_assujetti' component={UnsubmitSecond} />
@@ -95,6 +102,9 @@ function App() {
           <Route exact path='/location_vehicule_procedure' component={LocationVehiculeFinal} />
           <Route exact path='/autres_non_assujetti' component={UnsubmitOthers} />
           <Route exact path='/France_non_soumis' component={FranceUnsubmit} />
+          <Route exact path='/France_non_soumis2' component={FranceUnsubmitV2} />
+          <Route exact path='/France_non_soumis_europe' component={FranceUnsubmitUE} />
+          <Route exact path='/France_non_soumis_immaterielle' component={FranceUnsubmitImmaterial} />
 
         </Switch>
         </BrowserRouter>

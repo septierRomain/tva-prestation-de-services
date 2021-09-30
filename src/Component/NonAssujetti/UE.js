@@ -20,8 +20,8 @@ const UE = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
-        <p><img src={Check} alt="fleche grise"/>Le preneur est établi dans l'Union Européenne</p>
         <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est établi dans l'Union Européenne</p>
       </div>
 
       <h4>Informations complémentaires:</h4>
@@ -29,7 +29,7 @@ const UE = () => {
 
       <div className="select_container">
         <Link to='/OSS' ><button className='select'>Oui</button></Link>
-        <Link to='/France_non_soumis' ><button className='select'>Non</button></Link>
+        <Link to='/France_non_soumis_europe' ><button className='select'>Non</button></Link>
       </div>
 
       </div>

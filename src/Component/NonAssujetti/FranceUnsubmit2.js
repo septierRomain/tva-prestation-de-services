@@ -9,7 +9,7 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 import Prestations from '../../Assets/categories/prestation france.png'
 
-const FranceUnsubmit = () => {
+const FranceUnsubmitV2 = () => {
   let history = useHistory()
   return ( 
     <div className='wrap'>
@@ -22,15 +22,13 @@ const FranceUnsubmit = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
+      <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
         <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment :</p>
         <div className='breadcrumbs_details' >
-          <p>Les locations de moyens de transport de courte durée lorsque le moyen de transport est mis à disposition du preneur en France.</p>
-          <p>Les prestations de services se rattachant à un bien immeuble situé en France.</p>
-          <p>Les locations de biens meubles corporels autres que les moyens de transport, lorsqu’ils sont utilisés en France.</p>
-          <p>Les prestations de transport de passagers situées en France en fonction des distances qui y sont parcourues.</p>
-          <p>Les ventes à consommer sur place lorsqu’elles sont matériellement exécutées en France.</p>
+          <p>Prestations de services ayant pour objet des activités culturelles, artistiques, sportives, scientifiques, éducatives, de divertissement ou similaires, telles que les foires et les expositions, y compris les prestations de services des organisateurs de telles activités, ainsi que les prestations de services accessoires à ces activités, hébergements et ventes à consommer sur place.</p>
+          <p>Travaux et expertises sur biens meubles corporels.</p>
         </div>
+        <p><img src={Check} alt="fleche grise"/>La prestation a lieu en France</p>
       </div>
 
       <h4>La procédure :</h4>
@@ -53,4 +51,4 @@ const FranceUnsubmit = () => {
 );
 }
 
-export default FranceUnsubmit;
+export default FranceUnsubmitV2;

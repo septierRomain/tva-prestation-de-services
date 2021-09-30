@@ -23,9 +23,9 @@ const OSS = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
         <p><img src={Check} alt="fleche grise"/>La preneur est établi en Union Européenne</p>
         <p><img src={Check} alt="fleche grise"/>Vous faites plus de 10 000€ de CA vers l'Union Européenne</p>
-        <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
       </div>
 
       <h4>La procédure :</h4>

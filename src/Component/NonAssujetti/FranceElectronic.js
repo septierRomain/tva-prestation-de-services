@@ -9,7 +9,7 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 import Prestations from '../../Assets/categories/prestation france.png'
 
-const FranceUnsubmit = () => {
+const FranceElectronic = () => {
   let history = useHistory()
   return ( 
     <div className='wrap'>
@@ -23,14 +23,8 @@ const FranceUnsubmit = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
-        <p><img src={Check} alt="fleche grise"/>La prestation entre dans les conditions citées précédemment :</p>
-        <div className='breadcrumbs_details' >
-          <p>Les locations de moyens de transport de courte durée lorsque le moyen de transport est mis à disposition du preneur en France.</p>
-          <p>Les prestations de services se rattachant à un bien immeuble situé en France.</p>
-          <p>Les locations de biens meubles corporels autres que les moyens de transport, lorsqu’ils sont utilisés en France.</p>
-          <p>Les prestations de transport de passagers situées en France en fonction des distances qui y sont parcourues.</p>
-          <p>Les ventes à consommer sur place lorsqu’elles sont matériellement exécutées en France.</p>
-        </div>
+        <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est établi en France</p>        
       </div>
 
       <h4>La procédure :</h4>
@@ -53,4 +47,4 @@ const FranceUnsubmit = () => {
 );
 }
 
-export default FranceUnsubmit;
+export default FranceElectronic;

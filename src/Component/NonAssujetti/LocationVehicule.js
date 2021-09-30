@@ -19,7 +19,7 @@ const LocationVehicule = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
       </div>
 
       <h2>S'agit il d'une location de moyens de transport de longue durée ?</h2>

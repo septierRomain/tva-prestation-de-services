@@ -23,7 +23,7 @@ const TransportFinal = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
-        <p><img src={Check} alt="fleche grise"/>il s'agit de prestations de transports</p>
+        <p><img src={Check} alt="fleche grise"/>il s'agit de prestations de transport</p>
       </div>
 
       <h4>La procédure :</h4>

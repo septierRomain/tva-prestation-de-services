@@ -20,7 +20,7 @@ const Transport = () => {
         </button>
 
         <div className="breadcrumbs">
-          <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti a la TVA</p>
+          <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
         </div>
 
       <h4>S'agit il d'une des prestations de transport ?</h4>

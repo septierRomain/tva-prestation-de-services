@@ -22,9 +22,9 @@ const HorsUE = () => {
         </button>
 
       <div className="breadcrumbs">
-        <p><img src={Check} alt="fleche grise"/>Le preneur n'est assujetti à la TVA</p>
-        <p><img src={Check} alt="fleche grise"/>Le preneur est établi en dehors de l'Union Européenne</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
         <p><img src={Check} alt="fleche grise"/>La prestation concerne la télécommunication, la radiodiffusion, la télévision et les services fournis par voie electronique</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est établi en dehors de l'Union Européenne</p>
       </div>
 
       <h4>La procédure :</h4>
