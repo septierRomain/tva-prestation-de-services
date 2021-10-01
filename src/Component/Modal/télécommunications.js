@@ -30,7 +30,7 @@ function ModalTelecommunications() {
           <ol><Icon name='angle right' className='tick'/>Les services de radiomessagerie</ol>
           <ol><Icon name='angle right' className='tick'/>Les services d'audio-texte, la télécopie, le télégraphe et le télex</ol>
           <ol><Icon name='angle right' className='tick'/>L’accès à l’internet, y compris le World Wide Web</ol>
-          <ol><Icon name='angle right' className='tick'/>Les connexions privées fournissant des olens de télécommunication à l’usage exclusif du preneur</ol>
+          <ol><Icon name='angle right' className='tick'/>Les connexions privées fournissant des liens de télécommunication à l’usage exclusif du preneur</ol>
           <ol><Icon name='angle right' className='tick'/>Les frais forfaitaires de raccordement, de transfert et de cession d'abonnement</ol>
           <ol><Icon name='angle right' className='tick'/>Les redevances d'abonnement</ol>
         </p>

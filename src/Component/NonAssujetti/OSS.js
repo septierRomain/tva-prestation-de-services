@@ -30,7 +30,7 @@ const OSS = () => {
 
       <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Appliquez le taux de TVA du pays du preneur de la prestation au taux de ce pays</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez en via l'OSS ou la déclaration nationale du pays</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Déclarez via l'OSS ou la déclaration nationale du pays</ul>
 
       <hr />
         <div className='categorie' >
