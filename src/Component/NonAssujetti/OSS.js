@@ -35,7 +35,7 @@ const OSS = () => {
       <hr />
         <div className='categorie' >
           <h4>Si vous êtes client Dougs : </h4>
-          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Prestations de services" avec le bon taux de tva (5.5%, 10% ou 20% selon la nature de votre activité)</ul>
+          <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez la catégorie "Vente de services électroniques à un particulier en Union Européenne</ul>
           <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Sélectionnez le pays de destination</ul>
           <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />La TVA se calcule automatiquement</ul>
           <img src={PrestationElectronique} alt="Categorie UE" />
