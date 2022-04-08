@@ -35,7 +35,7 @@ function ModalElectronic() {
           <ol>Fourniture et mise à jour de logiciels</ol>
           <ol>Fourniture d'images, de textes et d'informations</ol>
           <ol>Fourniture de musiques, de films et de jeux et d'émissions ou de manifestations politiques, culturelles, artistiques, sportives, scientifiques ou de divertissement</ol>
-          <ol>Fourniture de services d'enseignement à distance</ol>
+          <ol>Fourniture de services d'enseignement à distance automatisé</ol>
         </p>
       </Modal.Content>
       <Modal.Actions>
